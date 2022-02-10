@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: darksalmon;
+    border: none;
+    text-align: center;
+
+}
+
+input:focus {
+    outline: none;
+}
